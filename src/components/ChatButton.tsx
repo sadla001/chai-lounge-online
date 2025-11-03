@@ -12,7 +12,7 @@ const ChatButton = () => {
   const [isOpen, setIsOpen] = useState(false);
   
   // Replace this URL with your Azure chat link
-  const CHAT_URL = "YOUR_AZURE_CHAT_LINK_HERE";
+  const CHAT_URL = "garamchai-gthjandwekewdugh.centralus-01.azurewebsites.net";
 
   return (
     <>
