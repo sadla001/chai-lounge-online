@@ -6,27 +6,27 @@ import kashmiriChaiImg from "@/assets/kashmiri-chai.jpg";
 
 const chaiVarieties = [
   {
-    name: "Masala Chai",
-    description: "Our signature blend with cardamom, cinnamon, ginger, and cloves",
-    price: "$4.50",
-    image: masalaChaiImg,
+    name: "Elaichi Chai",
+    description: "Delicate and aromatic with premium green cardamom",
+    price: "$16.00",
+    image: cardamomChaiImg,
   },
   {
-    name: "Cardamom Chai",
-    description: "Delicate and aromatic with premium green cardamom",
-    price: "$4.00",
-    image: cardamomChaiImg,
+    name: "Masala Chai",
+    description: "Our signature blend with cardamom, cinnamon, ginger, and cloves",
+    price: "$20.00",
+    image: masalaChaiImg,
   },
   {
     name: "Ginger Chai",
     description: "Bold and warming with fresh ginger root",
-    price: "$4.25",
+    price: "$15.00",
     image: gingerChaiImg,
   },
   {
-    name: "Kashmiri Chai",
+    name: "Madras Coffee",
     description: "Traditional pink tea with crushed almonds and pistachios",
-    price: "$5.50",
+    price: "$20.00",
     image: kashmiriChaiImg,
   },
 ];
