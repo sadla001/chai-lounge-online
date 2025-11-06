@@ -24,10 +24,11 @@ const ChatButton = () => {
       </Button>
 
       <Dialog open={isOpen} onOpenChange={setIsOpen}>
-      <DialogContent className="max-w-md h-[600px] p-0 left-auto right-6 top-auto bottom-6 translate-x-0 translate-y-0 flex flex-col">
-          <DialogHeader className="p-4 border-b shrink-0">
+      <DialogContent className="max-w-md h-[600px] p-0 left-auto right-6 top-auto bottom-6 translate-x-0 translate-y-0">
+          <DialogHeader className="p-4 border-b">
             <DialogTitle>Chat with us</DialogTitle>
           </DialogHeader>
+          {/* Expand (open in new window) button placed near the built-in close button */}
           <Button
             variant="ghost"
             size="icon"
@@ -40,15 +41,12 @@ const ChatButton = () => {
           >
             <ExternalLink className="h-4 w-4" />
           </Button>
-          <div className="flex-1 min-h-0">
-            <iframe
-              src={CHAT_URL}
-              className="w-full h-full border-0"
-              title="Chat"
-              allow="microphone"
-              style={{ height: '100%', minHeight: '100%' }}
-            />
-          </div>
+          <iframe
+            src={CHAT_URL}
+            className="w-full h-full border-0"
+            title="Chat"
+            allow="microphone"
+          />
         </DialogContent>
       </Dialog>
     </>
